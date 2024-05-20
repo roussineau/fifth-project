@@ -1,0 +1,27 @@
+.boton-naranja {
+    @include boton($naranja, inline);
+}
+
+.boton-naranja-block {
+    @include boton($naranja, block);
+}
+
+.boton-verde {
+    @include boton($verde, inline);
+}
+
+.boton-verde-block {
+    @include boton($verde, block);
+}
+
+.boton-rojo {
+    @include boton($rojo, inline);
+}
+
+.boton-rojo-block {
+    @include boton($rojo, block);
+}
+
+.boton-grisSemi-block {
+    @include boton($grisSemi, block);
+}

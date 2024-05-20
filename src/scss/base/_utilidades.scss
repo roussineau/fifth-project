@@ -1,0 +1,24 @@
+.seccion {
+    margin-top: calc($separacion / 2);
+    margin-bottom: calc($separacion / 2);
+}
+.contenido-centrado {
+    max-width: 80rem;
+}
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+.w-100 {
+    width: 100%;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+.margin-bottom-3dot5rem {
+    margin-bottom: 3.5rem;
+}
